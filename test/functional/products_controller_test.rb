@@ -6,10 +6,10 @@ class ProductsControllerTest < ActionController::TestCase
     @update = {
 	:title		=> 'Lorem Ipsum',
 	:description	=> 'Wibbles are fun!',
-	:image_url	=> 'lorem.jpg'
+	:image_url	=> 'lorem.jpg',
 	:price		=> 19.95
     }
-  end
+ end
 
   test "should get index" do
     get :index
